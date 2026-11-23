@@ -1,0 +1,24 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.moshejs/earshot",
+  "title": "Earshot",
+  "description": "Screen a proposed brand name for vulgar lookalikes and hard sounds in 25 languages.",
+  "repository": {
+    "url": "https://github.com/moshejs/earshot-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://earshot.quentin.software",
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "earshot-mcp",
+      "version": "0.1.0",
+      "runtimeHint": "npx",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
